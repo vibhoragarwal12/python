@@ -325,9 +325,27 @@
 ## ** FUNCTIONS ** ##
 # Is a block of code which is executed only when it is called
 
-def hello():
-  print("hello")
+# def hello():
+#   print("hello")
 
-hello()  
+# hello()  
 
-print(4%2)
+# def hello(name):
+#   print("hello "+name)
+#   print("have a nice day")
+# my_name = "vibhor"
+# hello(my_name)
+
+# def hello(f_name,l_name,age):
+#   print("hello "+f_name+" "+l_name)
+#   print("you are "+str(age)+" old")
+# hello("vibhor","agarwal",21)
+
+# ** RETUEN STATEMENT ** #
+
+# Functions send python values/objects back to the caller. these values/objects are known as the function's return value
+
+def multiply(number1,number2):
+  result = number1*number2
+  return result
+print(multiply(3,4))
